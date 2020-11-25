@@ -15,10 +15,10 @@
             android:layout_height="300dp"
             android:layout_margin="@dimen/activity_vertical_margin"
             app:civ_border_width="5dp"
-            app:civ_border_color="@android:color/holo_blue_dark"/>
+            app:civ_border_color="@android:color/holo_blue_dark"
+            android:src="@drawable/riyadi"/>
 
         <TextView
-            android:id="@+id/textNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -28,10 +28,10 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:text="@string/rahmad_riyadi"/>
 
         <TextView
-            android:id="@+id/textNpm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -40,7 +40,15 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:textSize="24sp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:text="@string/_06_2016_1_06686"/>
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/daftar_material"/>
 
     </LinearLayout>
 </ScrollView>
